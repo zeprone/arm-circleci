@@ -14,6 +14,9 @@ jobs:
           name: Building arm based image.
           command: docker build -t arm-test .
       - run:
+          name: Listing built images
+          command: docker images
+      - run:
           name: Running arm based image.
           command: docker run --rm arm-test 
     
