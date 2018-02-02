@@ -1,0 +1,24 @@
+{
+  "name": "arm-circleci",
+  "version": "1.0.0",
+  "description": "Building arm docker image on circleci",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeprone/arm-circleci.git"
+  },
+  "keywords": [
+    "arm",
+    "docker",
+    "circleci"
+  ],
+  "author": "Benoit Bousquet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeprone/arm-circleci/issues"
+  },
+  "homepage": "https://github.com/zeprone/arm-circleci#readme"
+}
