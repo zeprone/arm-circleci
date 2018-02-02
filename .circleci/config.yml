@@ -11,6 +11,9 @@ jobs:
           name: Enabling qemu
           command: docker run --rm --privileged multiarch/qemu-user-static:register --reset
       - run:
+          name: Getting nodejs
+          command: wget https://nodejs.org/dist/v9.5.0/node-v9.5.0-linux-armv7l.tar.xz
+      - run:
           name: Building arm based image.
           command: docker build -t arm-test .
       - run:
