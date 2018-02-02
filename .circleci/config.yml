@@ -9,7 +9,7 @@ jobs:
       #    command: curl https://get.docker.com | sh
       - run:
           name: Enabling qemu
-          command: docker run --rm --privileged multiarch/qemu-user-static:register
+          command: docker run --rm --privileged multiarch/qemu-user-static:register --reset
       - run:
           name: Building arm based image.
           command: docker build -t arm-test .
